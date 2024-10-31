@@ -24,6 +24,3 @@ example {a r : ℝ} (n : ℕ) (h : r ≠ 1) :
     rw [npow_add]
     field_simp
     ring
-
-
-
