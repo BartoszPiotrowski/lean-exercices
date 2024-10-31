@@ -7,7 +7,7 @@ $2^{n}+(-1)^{n}$, using the second principle of mathematical induction.
 -/
 
 def f : ℕ → ℕ
-  | 0 => 2 -- Lean requires to additionally specify the value for 0 as 0 ∈ ℕ
+  | 0 => 2 -- Lean requires to additionally specify the value for 0 (as 0 ∈ ℕ)
   | 1 => 1
   | 2 => 5
   | n + 1 => f n + 2 * f (n - 1)
